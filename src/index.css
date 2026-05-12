@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f7f4ef;
+  --surface: #ede9e2;
+  --surface-2: #e2ddd5;
+  --text: #0f0e0c;
+  --text-muted: #3a3832;
+  --text-faint: #7a7770;
+  --accent: #1a3a2a;
+  --accent-2: #2d6245;
+  --accent-light: #d4ede1;
+  --gold: #b8860b;
+  --gold-light: #f5edc8;
+  --border: rgba(15, 14, 12, 0.1);
+  --mono: 'DM Mono', ui-monospace, Consolas, monospace;
+  --sans: 'Syne', system-ui, sans-serif;
+  --serif: 'DM Serif Display', serif;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  color-scheme: light;
+  font-family: var(--sans);
+}
