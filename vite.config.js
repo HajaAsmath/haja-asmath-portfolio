@@ -11,6 +11,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         pipeline: resolve(__dirname, 'pipeline.html'),
+        fraud: resolve(__dirname, 'fraud.html'),
       },
     },
   },

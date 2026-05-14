@@ -803,6 +803,31 @@
         <a href="pipeline.html" class="project-cta">View interactive design&nbsp;&nbsp;→</a>
       </div>
     </div>
+
+    <div class="exp-item fade-in">
+      <div class="exp-meta">
+        <div class="exp-period">2022<br />— Blackhawk</div>
+        <div class="exp-company">Risk Platform</div>
+        <div class="exp-location">Fraud decisioning</div>
+      </div>
+      <div class="exp-content">
+        <div class="exp-role">Real-Time Fraud Decisioning Lifecycle</div>
+        <div class="exp-stack">Java · Spring Boot · ML Scoring · DynamoDB · Audit Log · External risk providers</div>
+        <ul class="exp-bullets">
+          <li>A fraud system is more than a rule engine — designed the full decision loop: signal collection, external-risk enrichment, low-latency rule evaluation, decision routing, audit logging, and a feedback channel that learns from chargebacks and confirmed fraud.</li>
+          <li>Built signal-enrichment layer combining internal account history with external risk providers, normalising both into a single low-latency scoring context — kept the decision under <strong>~200 ms p95</strong> at 7M+ daily transactions.</li>
+          <li>Routed uncertain mid-band scores to a manual-review queue with analyst context (signals + rule trace + history) rather than auto-declining — preserved customer experience without weakening fraud capture.</li>
+          <li>Every decision is written to an audit trail with full reasoning trace, satisfying compliance + explainability and powering the feedback loop where chargebacks/disputes feed back into rules and scoring.</li>
+        </ul>
+        <div class="exp-highlights">
+          <span class="highlight-pill accent">&lt; 200 ms p95</span>
+          <span class="highlight-pill accent">7M+ tx/day</span>
+          <span class="highlight-pill">Explainable decisions</span>
+          <span class="highlight-pill">Feedback-driven scoring</span>
+        </div>
+        <a href="fraud.html" class="project-cta">View interactive design&nbsp;&nbsp;→</a>
+      </div>
+    </div>
   </div>
 </section>
 
